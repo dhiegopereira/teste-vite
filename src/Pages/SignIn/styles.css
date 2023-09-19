@@ -1,0 +1,107 @@
+.signInContent {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+}
+
+.signInBanner {
+    min-width: 34%;
+
+    background-size: cover;
+    background-position:center;
+    display:flex;
+
+}
+
+.signInBannerTitle {
+    margin: 10.188rem 2.938rem;
+    
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+
+    text-align: center;
+    color: var(--dark-green);
+}
+
+.signInLogin {
+
+    min-width: 66%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--grey-bg);
+}
+
+.loginContainer {
+    min-width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginContainerTitle {
+    margin-bottom: 2rem;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+
+    text-align: center;
+}
+
+.loginContainer label, .loginLabelPassword  {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 0.875rem;
+}
+
+.loginLabel{
+    margin-bottom: 0.313rem;
+}
+
+.loginLabelPassword {
+    margin-top: 1.25rem;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.passwordInput {
+   position: relative;
+
+   display: flex;
+   align-items:center;
+}
+
+.loginLabelPassword p {
+    margin-bottom: 0.5rem;
+
+    color: var(--pink-principal);
+
+    font-size: 0.875rem;
+    text-decoration: underline;
+
+    cursor: pointer;
+}
+
+.loginErrorContent {
+    margin-top: 0.625rem;
+}
+
+
+.loginToRegister {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+
+    text-align: center;
+}
+
+.linkToRegister {
+    color: var(--pink-principal);
+    
+    font-weight: 600;
+}

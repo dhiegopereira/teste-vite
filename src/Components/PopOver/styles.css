@@ -1,0 +1,17 @@
+.editIcon,
+.logOutIcon {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+  font-weight: bold;
+  color: #747478;
+}
+
+.editIcon:hover,
+.logOutIcon:hover {
+  cursor: pointer;
+
+  transform: scale(1.04);
+}

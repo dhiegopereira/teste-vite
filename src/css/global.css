@@ -1,0 +1,53 @@
+@import url('./colors.css');
+@import url('./fonts.css');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#root {
+
+min-height: 100vh
+
+}
+
+html {
+    font-size: 16px
+}
+
+.errorMessage {
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+
+    font-size: 0.875rem;
+
+    color: var(--feedback-erro);
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.patternBtn {
+    width: 10rem;
+    height: 2.063rem;
+
+    margin: 2.875rem 0rem 0.938rem 0rem;
+    align-self: center;
+
+
+    color: var(--grey-bg);
+    background-color: var(--pink-principal);
+
+    border-radius: 0.625rem;
+    border: none;    
+    
+    cursor: pointer;    
+    transition: transform 0.2s ease;
+}
+
+.patternBtn:hover {
+    transform: scale(1.05);
+}

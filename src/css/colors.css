@@ -1,0 +1,15 @@
+:root {
+    --dark-green: #034A2A;
+    --grey-bg: #F8F8F9;
+    --pink-principal: #DA0175;
+    --gray-300: #D0D5DD;
+    --feedback-erro: #E70000;
+    --gray-500: #667085;
+    --gray-gray-3: #747488;
+    --placeholder-color:#050507;
+}
+
+input::placeholder {
+    color: var(--placeholder-color) !important;
+
+}

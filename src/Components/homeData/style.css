@@ -1,0 +1,290 @@
+.divider {
+  margin-left: 140px;
+  margin-right: 32px;
+  color: rgba(172, 217, 197, 0.338);
+}
+
+.css-1i0e6f3-MuiModal-root-MuiPopover-root {
+  position: static;
+}
+
+/* NAVBAR */
+
+.navBar nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 108px;
+}
+
+/* HEADER */
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+
+  flex-wrap: wrap;
+}
+
+.pagas,
+.vencidas,
+.previstas {
+  width: Fixed (360px);
+  height: Fixed (111px);
+  padding: 23px 40px 23px 40px;
+  border-radius: 30px;
+}
+
+.pagas div:first-child,
+.vencidas div:first-child,
+.previstas div:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.pagas div:nth-child(2),
+.vencidas div:nth-child(2),
+.previstas div:nth-child(2) {
+  margin-left: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 65px;
+  justify-content: space-between;
+}
+
+.header img {
+  height: 33.83px;
+}
+
+.pagas {
+  background: rgba(238, 246, 246, 1);
+}
+.vencidas {
+  background: rgba(255, 239, 239, 1);
+}
+
+.previstas {
+  background: rgba(252, 246, 220, 1);
+}
+
+.pagas span,
+.vencidas span,
+.previstas span {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #343447;
+}
+
+.pagas h5,
+.vencidas h5,
+.previstas h5 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #343447;
+}
+
+/* detalhes de cobrança */
+
+.dataHeader {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(239, 240, 246, 1);
+  padding-bottom: 8px;
+}
+
+.dataHeader p {
+  color: #343447;
+  width: 220px;
+  height: 24px;
+  margin-left: 5rem;
+
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.qntVencidas,
+.qntPrevistas,
+.qntPagas {
+  margin-right: 1rem;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+
+  width: 50.89px;
+  height: 20px;
+  top: 285px;
+  left: 1265px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.qntPagas {
+  color: rgba(31, 167, 175, 1);
+  background: rgba(238, 246, 246, 1);
+}
+
+.qntPrevistas {
+  color: rgba(197, 166, 5, 1);
+  background: rgba(252, 246, 220, 1);
+}
+
+.qntVencidas {
+  background: rgba(255, 239, 239, 1);
+  color: rgba(151, 29, 29, 1);
+}
+
+.cobrancaDetails {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.cobrancasVencidas,
+.cobrancasPrevistas,
+.cobrancasPagas {
+  width: 360px;
+  margin-top: 2rem;
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 1);
+  padding: 1rem;
+
+  box-shadow: 0px 4px 4px 0px rgba(172, 217, 197, 0.25);
+}
+
+.inadiplentes,
+.emDia {
+  width: 556px;
+  margin-top: 2rem;
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 1);
+  padding: 1rem;
+  margin-bottom: 3rem;
+
+  box-shadow: 0px 4px 4px 0px rgba(172, 217, 197, 0.25);
+}
+
+.cobrancasVencidas table,
+.cobrancasPrevistas table,
+.cobrancasPagas table,
+.inadiplentes table,
+.emDia table {
+  width: 100%;
+}
+
+.cobrancasVencidas tr,
+.cobrancasPrevistas tr,
+.cobrancasPagas tr,
+.inadiplentes tr,
+.emDia tr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(239, 240, 246, 1);
+}
+
+.cobrancasVencidas th:first-child,
+.cobrancasPrevistas th:first-child,
+.cobrancasPagas th:first-child,
+.inadiplentes th:first-child,
+.emDia th:first-child {
+  width: 100%;
+  margin: auto;
+  text-align: left;
+}
+
+.cobrancasVencidas th,
+.cobrancasPrevistas th,
+.cobrancasPagas th,
+.inadiplentes th,
+.emDia th {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.cobrancasVencidas tbody,
+.cobrancasPrevistas tbody,
+.cobrancasPagas tbody,
+.inadiplentes tbody,
+.emDia tbody {
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 40px;
+  letter-spacing: 0.005em;
+  text-align: left;
+  color: rgba(110, 110, 133, 1);
+}
+
+.cobrancasVencidas thead,
+.cobrancasPrevistas thead,
+.cobrancasPagas thead,
+.inadiplentes thead,
+.emDia thead {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0.005em;
+  text-align: left;
+  color: rgba(63, 63, 85, 1);
+}
+
+.clientesDetails {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.seeMore {
+  text-align: center;
+  padding-top: 8px;
+}
+.seeMore a {
+  color: rgba(218, 1, 117, 1);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+}
+
+@media (max-width: 500px) {
+  .header {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .header div:nth-child(n + 2) {
+    margin-top: 1rem;
+  }
+
+  .clientesDetails {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .cobrancaDetails {
+    align-items: center;
+    flex-direction: column;
+
+    padding-top: 2rem;
+  }
+
+  .inadiplentes,
+  .emDia {
+    width: 360px;
+  }
+
+  .navBar {
+    padding-top: 15vh;
+  }
+}

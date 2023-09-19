@@ -1,0 +1,94 @@
+/* SIDEBAR */
+
+body {
+  background: #f8f8f9;
+}
+
+.sideBar {
+  width: 108px;
+  background: #f0f0f5;
+  height: 100vh;
+  position: fixed;
+}
+
+.selected {
+  border-right: 3px solid #da0175;
+  margin-top: 2rem;
+  color: #da0175;
+}
+
+.sideBar a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 4rem;
+
+  text-decoration: none;
+  color: #343447;
+}
+
+.perfilButton {
+  display: flex;
+  align-items: center;
+}
+.initials {
+  height: 48px;
+  width: 48px;
+  border-radius: 25px;
+  background: rgba(222, 222, 233, 1);
+  margin-right: 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonDropDown {
+  border: none;
+  background: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.buttonDropDown img {
+  margin-left: 5px;
+}
+
+.dialog {
+  position: absolute;
+  right: 98px;
+  top: 45px;
+  background-image: url("../../assets/Home/dialog.png");
+  background-color: none;
+  width: 150px;
+  height: 110px;
+  padding: 5px;
+  background-position: center 38%;
+}
+
+/* RESPONSIVO */
+
+@media (max-width: 500px) {
+  .sideBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 12vh;
+    width: 100%;
+    justify-content: space-evenly;
+
+    background: rgba(56, 56, 56, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+
+  .sideBar a {
+    margin: 0;
+  }
+}

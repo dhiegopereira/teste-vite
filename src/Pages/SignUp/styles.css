@@ -1,0 +1,267 @@
+.containerSignUp {
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.left {
+    width: 35%;
+    background-color: #F0F0F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right {
+    width: 65%;
+    background-color: #F8F8F9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formBox {
+    width: 35%;
+}
+
+.formSignUp {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.rightTitle {
+    align-self: center;
+    margin-bottom: 0.75rem;
+
+    font-family: Montserrat, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+    display: flex;
+
+    color: #343447;
+}
+
+
+
+.formSignUpLabel {
+    font-family: Nunito, sans-serif;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 2rem;
+    text-align: left;
+    color: #344054;
+    margin-top: 1.25rem;
+}
+
+.informationSignUp {
+    font-family: Nunito, sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: #3F3F55;
+    text-align: center;
+
+}
+
+.navSignUp {
+    color: #DA0175;
+    font-family: inherit;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.register {
+    width: 600px;
+    height: 512px;
+    border-radius: 30px;
+    background: #F0F0F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.register h1 {
+    width: 410px;
+    height: 31px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-decoration: none;
+
+    color: #343447;
+    margin-top: 20px;
+}
+
+.register img {
+    width: 104px;
+    height: 104px;
+}
+
+.registerLink {
+    width: 10rem;
+    height: 2.063rem;
+
+    margin: 2.875rem 0rem 0.938rem 0rem;
+    align-self: center;
+
+    color: var(--grey-bg);
+    background-color: var(--pink-principal);
+
+    border-radius: 0.625rem;
+    border: none;    
+    
+    cursor: pointer;    
+    transition: transform 0.2s ease;
+
+
+
+}
+
+.navPattern {
+    text-decoration: none;
+    color: #F8F8F9;
+}
+
+.MuiStepLabel-iconContainer {
+    position: absolute;
+}
+
+.icon {
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    position: relative;
+    top: 37px;
+    left: 4px;
+    z-index: 9;
+}
+
+.stepContent {
+    color: #3F3F55 !important;
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.css-1hv8oq8-MuiStepLabel-label.Mui-active {
+    color: #0E8750 !important;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 25px;
+
+}
+
+.css-1hv8oq8-MuiStepLabel-label.Mui-completed {
+    color: #0E8750 !important;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 25px;
+}
+
+.css-1vyamtt-MuiStepLabel-labelContainer {
+    color: #0E8750 !important;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 25px;
+}
+
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active {
+    color: #0E8750 !important;
+
+}
+
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed {
+    color: #0E8750 !important;
+}
+
+.css-8t49rw-MuiStepConnector-line {
+    border-color: #0E8750 ! important;
+    border-left-width: 3px ! important;
+}
+
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root {
+    color: white !important;
+    border: 1px solid #0E8750 !important;
+    border-radius: 50%;
+
+}
+.alignPagination {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+.paginationSignUp {
+  
+    display: flex;
+    margin-top: 10%;
+  
+}
+
+.selectPagination {
+    width: 82px;
+    height: 6px;
+    background-color: #0E8750;
+    border-radius: 20px;
+    margin-right: 7px;
+}
+
+.pagination {
+    width: 82px;
+    height: 6px;
+    background-color: #DEDEE9;
+    border-radius: 20px;
+    margin-right: 7px;
+
+}
+
+.buttonFinalization {
+    width: 300px;
+}
+
+.signUpError{
+    margin-top: 0.625rem;
+
+}
+
+.BtnGoToLogin  {
+    width: 10rem;
+    height: 2.063rem;
+
+    margin: 2.875rem 0rem 0.938rem 0rem;
+    align-self: center;
+
+
+    color: var(--grey-bg);
+    background-color: var(--pink-principal);
+
+    border-radius: 0.625rem;
+    border: none;    
+    
+    cursor: pointer;    
+    transition: transform 0.2s ease;
+}
+
+.patternBtn:hover {
+    transform: scale(1.05);
+}
