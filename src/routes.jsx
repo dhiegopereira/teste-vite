@@ -30,7 +30,7 @@ function MainRoutes() {
       </Route>
 
       <Route element={<UnprotectedRoutes />}>
-        <Route path="/SignIn" element={<SignIn />} />
+        <Route path="/signin" element={<SignIn />} />
       </Route>
 
       <Route element={<ProtectedRoutes redirectTo={"/"} />}>
